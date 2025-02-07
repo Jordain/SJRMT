@@ -69,6 +69,65 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* Rates Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-semibold text-center text-gray-900 mb-12">
+            Treatment Rates
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            {[
+              {
+                duration: "60",
+                price: "125.00",
+                highlight: true,
+                bookingUrl:
+                  "https://simonejoycermtltd.janeapp.com/#/staff_member/1/treatment/2",
+              },
+              {
+                duration: "45",
+                price: "105.00",
+                bookingUrl:
+                  "https://simonejoycermtltd.janeapp.com/#/staff_member/1/treatment/3",
+              },
+              {
+                duration: "30",
+                price: "75.00",
+                bookingUrl:
+                  "https://simonejoycermtltd.janeapp.com/#/staff_member/1/treatment/4",
+              },
+            ].map((rate, index) => (
+              <div
+                key={index}
+                className={`text-center p-8 rounded-xl shadow-lg transform transition-all duration-300 hover:scale-105 ${
+                  rate.highlight
+                    ? "bg-white border-2 border-blue-600"
+                    : "bg-white"
+                }`}
+              >
+                <div className="text-4xl font-bold text-gray-900 mb-2">
+                  {rate.duration}
+                  <span className="text-xl ml-1">min</span>
+                </div>
+                <div className="text-2xl font-semibold text-blue-600 mb-4">
+                  ${rate.price}
+                </div>
+                <a
+                  href={rate.bookingUrl}
+                  className={`inline-block px-6 py-3 rounded-lg text-lg font-semibold transition-colors duration-300 ${
+                    rate.highlight
+                      ? "bg-blue-600 text-white hover:bg-blue-700"
+                      : "bg-gray-100 text-blue-600 hover:bg-gray-200"
+                  }`}
+                >
+                  Book Now
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Directions Section */}
       <section className="py-12 bg-gray-100">
         <div className="container mx-auto px-4">
