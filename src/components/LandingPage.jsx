@@ -90,7 +90,7 @@ const LandingPage = () => {
               </ul>
             </div>
             <a
-              href="https://www.google.ca/maps/place/Simone+Joyce+RMT/@49.1297988,-121.9527127,17z/data=!4m15!1m8!3m7!1s0x548440c71c5dda9d:0x7a9b0462fc04ea7f!2s7045+Centennial+Dr,+Chilliwack,+BC+V2R+4C7!3b1!8m2!3d49.1297988!4d-121.9501378!16s%2Fg%2F11c4lp4vcr!3m5!1s0x548441c64c995b79:0x1c20e3156652b4c2!8m2!3d49.1297988!4d-121.9501378!16s%2Fg%2F11khk5zc38?entry=ttu&g_ep=EgoyMDI1MDIwNS4wIKXMDSoASAFQAw%3D%3D"
+              href="https://maps.google.com/?q=Simone+Joyce+RMT,+7045+Centennial+Dr,+Chilliwack,+BC+V2R+4C7"
               className="block w-full mt-6"
             >
               <button className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-transform duration-300 shadow-md hover:scale-105">
