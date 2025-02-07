@@ -125,6 +125,14 @@ const LandingPage = () => {
               </div>
             ))}
           </div>
+          <div className="text-center mt-12">
+            <p className="text-gray-700 text-lg leading-relaxed">
+            ICBC and Work safe BC clients please call in advance prior to booking.
+            </p>
+            <p className="text-gray-700 text-lg leading-relaxed mt-4"> 
+            Patient pays full amount after treatment and receives an invoice allowing submission to your service provider. 
+            </p>
+          </div>
         </div>
       </section>
 
