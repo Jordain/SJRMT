@@ -79,20 +79,20 @@ const LandingPage = () => {
             {[
               {
                 duration: "60",
-                price: "125.00",
+                price: "130.00",
                 highlight: true,
                 bookingUrl:
                   "https://simonejoycermtltd.janeapp.com/#/staff_member/1/treatment/2",
               },
               {
                 duration: "45",
-                price: "105.00",
+                price: "110.00",
                 bookingUrl:
                   "https://simonejoycermtltd.janeapp.com/#/staff_member/1/treatment/3",
               },
               {
                 duration: "30",
-                price: "75.00",
+                price: "80.00",
                 bookingUrl:
                   "https://simonejoycermtltd.janeapp.com/#/staff_member/1/treatment/4",
               },
