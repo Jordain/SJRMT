@@ -92,7 +92,7 @@ const LandingPage = () => {
               },
               {
                 duration: "30",
-                price: "75.00",
+                price: "80.00",
                 bookingUrl:
                   "https://simonejoycermtltd.janeapp.com/#/staff_member/1/treatment/4",
               },
